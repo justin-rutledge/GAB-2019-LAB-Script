@@ -12,11 +12,9 @@ if(-not (Test-Path $envVariablesFilePath)){
     }
 
     $fileContents = $environmentVariables.keys.ForEach{
-        $thisVariable = "BatchClient__$_=$($environmentVariables[$_])"
-        $thisVariable
-        
+        "BatchClient__$_=$($environmentVariables[$_])"    
     }
-    $fileContents | Out-File $envVariablesFilePath
+    $fileContents | Out-File $envVariablesFilePath -Encoding default
 }
 
 [ValidateRange(1,20)]
