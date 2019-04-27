@@ -20,4 +20,5 @@ You need Docker installed for this to work.
 <h2>Acknowledgments</h2>
 
 •	Original instructions for how to run an instance found here: https://github.com/intelequia/GAB2019ScienceLab
+
 •	Thanks to Microsoft, HMB, and Insight for hosting and sponsoring the Columbus chapter of the Global Azure Bootcamp!
